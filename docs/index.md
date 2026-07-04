@@ -19,14 +19,15 @@ Athens, Greece
 
 > Backend engineer and founder building production-safe agentic AI systems.
 > Architectural philosophy: **bounded autonomy** — LLM agents explore freely within deterministic validation gates.
+> AI scales syntax. Humans retain strict ownership of orchestration, intent, and taste.
 
 ---
 
 ## Current Status Bar (prominent, near top)
 
 - **Now:** Co-Founder @ Keel Technologies — multi-agent AI for maritime intelligence
-- **Previously:** founder @ Metagalerie · Zone01 (Software Engineering, RNCP L7)
-- **🏆** 1st Place — Panathenea AI Hackathon 2026
+- **Prev:** Co-founder @ Metagalerie (Artisto, art-management SaaS) · Zone01 (Software Engineering, RNCP L7)
+- **🏆** 1st Place — Panathenea AI Hackathon
 
 ---
 
@@ -34,7 +35,9 @@ Athens, Greece
 
 Go · Python · PostgreSQL · Docker · FastAPI · Pydantic · LangGraph · TypeScript
 
-**Exploring:** Agentic Orchestration · Safe AI Deployment · Omnigent · Durable Execution (Inngest)
+**Also:** Git · Java · SQLite · Bash · MATLAB · LaTeX · HTML/CSS · JS/TS
+
+**Exploring:** Agentic Orchestration · Safe AI Deployment · Durable Execution
 
 ---
 
@@ -93,36 +96,54 @@ Pure JS ECS game engine. 850 commits. DOM node pooling, jank prevention, CSP/Tru
 | Role | Org | Period | Location |
 |------|-----|--------|----------|
 | Co-Founder & AI Systems Engineer | Keel Technologies | May 2026 – Present | Athens, GR |
-| Co-Founder | Metagalerie | 2015 – 2025 | Athens, GR |
+| Co-Founder | Metagalerie | 2013 – 2025 | Athens, GR |
 | Communications Specialist | Hellenic Army | 2016 – 2017 | Athens, GR |
 | Professional Tutor (Math) | Self-employed | 2006 – 2016 | Athens, GR |
 | Research Assistant | Athens Info. Tech. | 2009 – 2010 | Athens, GR |
+
+One-line summaries under each role:
+
+- **Keel:** AI platform for maritime dispute resolution · deterministic validation gates on LLM stochasticity.
+- **Metagalerie:** Built Artisto, art-management SaaS; secured government funding; migrating to Cloudflare serverless + AI features.
+- **Hellenic Army:** Compulsory military service. Managed secure comms with zero-downtime data transmission via redundancy procedures.
+- **Self-employed:** University-entrance candidates & undergrad math. Translated abstract concepts into cross-disciplinary analogies.
+- **AIT:** Statistical learning for time-series prediction. Co-developed predictive algorithmic trading models.
 
 ---
 
 ## Education
 
 |--------|-------------|--------|
-| RNCP L7 Software Engineering | Zone01 Athens
+| RNCP L7 Software Engineering — Full stack · cloud DevOps specialization | Zone01 Athens
 | Graduate Coursework, Economics | AUEB
-| BSc Mathematics | NKU Athens
-| Graduate, Info. & Telecom. Tech. | AIT
+| Undergraduate Coursework, Mathematics — linear algebra · numerical analysis · data structures · cryptography | NKU Athens
+| Graduate Coursework, Info. & Telecom. Tech. — machine learning in structured domains | AIT
 
 ---
 
 ## Honors
 
-- 1st Place — Panathenea AI Hackathon 2026
-- Full Scholarships (Summer Uni. Bucharest, AUEB MSc, AIT MSc)
-- Young Researcher Grants (Uni. Göttingen, INRIA Marie-Curie)
+- 1st Place — Panathenea AI Hackathon
+- Full tuition scholarship — AIT MSc (Intracom)
+- Full tuition scholarship — AUEB MSc
+- Summer university full scholarship — Bucharest Uni. of Econ.
+- Young researcher grant — Uni. of Göttingen
+- Young researcher grant — INRIA Marie-Curie
+- Summer school scholarships — Aegean Uni. · Uni. of Crete · Ionian Uni. · Plato's Academy
 
 ---
 
 ## Skills
 
-**Competencies:** Backend Systems & API Design · Systems Architecture & DevOps · Agentic AI (Study & Prototyping) · Product Strategy & Founding · Applied Mathematics
+**Competencies:** Backend systems & DevOps · Product strategy & founding · AI engineering (study & prototyping) · Applied mathematics
 
 **Languages:** Greek / Albanian (native) · English (fluent) · Japanese / German (elementary)
+
+---
+
+## Interests
+
+Art · Science · Technology · Muay Thai · Cooking · Traveling
 
 ---
 
