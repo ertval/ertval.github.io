@@ -1,13 +1,13 @@
 # Ertval Karameta
 
-**AI Engineer**  
-Athens, Greece | [erti@metagalerie.com](mailto:erti@metagalerie.com) | [ertval.github.io](https://ertval.github.io)
+**AI Engineer (LLM Babysitter → Factory Manager)**  
+[ertval.github.io](https://ertval.github.io) | Athens, Greece
 
 ---
 
 ## Summary
 
-Backend engineer, educator, and founder transitioning to AI-native systems engineering. Foundation in Go and systems design, with a deep interest in agentic AI orchestration and production-safe harness engineering. Bridging technical architecture with product thinking to build reliable agentic software systems, where AI scales syntax, but humans retain strict ownership of orchestration, intent, and taste.
+Agentic backend engineer and educator transitioning to AI-native systems engineering. Foundation in Go and systems design, with a deep interest in agentic AI orchestration and production-safe harness engineering. Bridging technical architecture with product thinking to build reliable agentic software systems, where AI scales syntax and humans retain strict ownership of orchestration, intent and taste.
 
 ---
 
@@ -16,16 +16,15 @@ Backend engineer, educator, and founder transitioning to AI-native systems engin
 ### Keel Technologies
 *Co-Founder* | May 2026 – Present | Athens, Greece
 
-- **Vision:** Panathenea AI Hackathon Winner. Designing an AI platform to turn unstructured maritime data into actionable insights for dispute resolution.
+- **Vision:** *Panathenea AI Hackathon Winner*. Designing an AI platform to turn unstructured maritime data into actionable insights for dispute resolution.
 - **Architecture:** Prototyping workflows for document analysis and applying deterministic validation gates to control LLM stochasticity.
-- **Stack:** Python • FastAPI • Pydantic • LLM APIs • Next.js • PostgreSQL
 
 ### Metagalerie
 *Co-Founder* | 2013 – 2025 | Athens, Greece
 
 - **Vision:** Conceived **Artisto**, an art management SaaS to streamline inventory, consignments, sales, and CRM for galleries, collectors, and artists.
 - **Product:** Secured government funding and bridged business goals with technology while directing content curation and product development.
-- **Serverless:** Currently migrating Artisto to Cloudflare (Workers/D1/KV/R2), rewriting the codebase to optimize for serverless resources and AI features.
+- **Serverless:** Initiated the migration of Artisto to Cloudflare (Workers/D1/KV/R2), rewriting the codebase to optimize for serverless resources and AI features.
 
 ### Hellenic Army
 *Communications Specialist* | 2016 – 2017 | Athens, Greece
@@ -33,10 +32,10 @@ Backend engineer, educator, and founder transitioning to AI-native systems engin
 - Compulsory military service. Managed secure military communications with zero-downtime data transmission via redundancy procedures.
 
 ### Self-employed
-*Professional Tutor* | 2006 – 2016 | Athens, Greece
+*Education and Tutoring* | 2006 – 2016 | Athens, Greece
 
 - Prepared students for University Entrance Exams by translating abstract mathematical concepts into concrete cross-disciplinary analogies.
-- Taught undergraduate mathematics, developing technical communication skills to bridge AI Engineering with business.
+- Taught undergraduate mathematics, honing technical communication skills that enabled bridging complex engineering concepts with business needs.
 
 ### Athens Information Technology
 *Research Assistant* | 2009 – 2010 | Athens, Greece
@@ -49,16 +48,17 @@ Backend engineer, educator, and founder transitioning to AI-native systems engin
 ## Skills
 
 ### Competencies
-- Backend Systems & DevOps
-- Product Strategy & Founding
+- Agentic & Harness Engineering
+- Backend Systems
+- Product Strategy & Entrepreneurship
 - AI Engineering (Study & Prototyping)
 
 ### Technologies
-Golang • Git • Docker • Java • SQLite • HTML/CSS • JS/TS • Python • Bash • PostgreSQL • MATLAB • LaTeX
+Golang • Git • Docker • Java • SQLite • HTML/CSS • JS/TS • Python • Bash • MATLAB • LaTeX
 
 ### Languages
-- **Greek / Albanian:** Native Fluency
-- **English:** Fully Fluent
+- **Greek / Albanian:** Native/Bilingual
+- **English:** Fluent
 - **Japanese / German:** Elementary
 
 ---

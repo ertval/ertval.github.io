@@ -8,7 +8,7 @@ Personal portfolio / landing page. Single-page or minimal multi-page. Tells cohe
 
 ## Identity (Must be first visible text)
 
-**Ertval (Erti) Karameta**
+**Ertval Karameta**
 Agentic AI Engineer · Founder · Backend & Infrastructure
 Athens, Greece
 [LinkedIn](https://linkedin.com/in/ertval) · [Email](mailto:erti@metagalerie.com) · [GitHub](https://github.com/ertval)
@@ -95,49 +95,64 @@ Pure JS ECS game engine. 850 commits. DOM node pooling, jank prevention, CSP/Tru
 
 | Role | Org | Period | Location |
 |------|-----|--------|----------|
-| Co-Founder & AI Systems Engineer | Keel Technologies | May 2026 – Present | Athens, GR |
-| Co-Founder | Metagalerie | 2013 – 2025 | Athens, GR |
-| Communications Specialist | Hellenic Army | 2016 – 2017 | Athens, GR |
-| Professional Tutor (Math) | Self-employed | 2006 – 2016 | Athens, GR |
-| Research Assistant | Athens Info. Tech. | 2009 – 2010 | Athens, GR |
+| Co-Founder | Keel Technologies | May 2026 – Present | Athens, Greece |
+| Co-Founder | Metagalerie | 2013 – 2025 | Athens, Greece |
+| Communications Specialist | Hellenic Army | 2016 – 2017 | Athens, Greece |
+| Education and Tutoring | Self-employed | 2006 – 2016 | Athens, Greece |
+| Research Assistant | Athens Information Technology | 2009 – 2010 | Athens, Greece |
 
-One-line summaries under each role:
+Detailed bullet points under each role:
 
-- **Keel:** AI platform for maritime dispute resolution · deterministic validation gates on LLM stochasticity.
-- **Metagalerie:** Built Artisto, art-management SaaS; secured government funding; migrating to Cloudflare serverless + AI features.
-- **Hellenic Army:** Compulsory military service. Managed secure comms with zero-downtime data transmission via redundancy procedures.
-- **Self-employed:** University-entrance candidates & undergrad math. Translated abstract concepts into cross-disciplinary analogies.
-- **AIT:** Statistical learning for time-series prediction. Co-developed predictive algorithmic trading models.
+- **Keel Technologies:**
+  - **Vision:** *Panathenea AI Hackathon Winner*. Designing an AI platform to turn unstructured maritime data into actionable insights for dispute resolution.
+  - **Architecture:** Prototyping workflows for document analysis and applying deterministic validation gates to control LLM stochasticity.
+- **Metagalerie:**
+  - **Vision:** Conceived **Artisto**, an art management SaaS to streamline inventory, consignments, sales, and CRM for galleries, collectors, and artists.
+  - **Product:** Secured government funding and bridged business goals with technology while directing content curation and product development.
+  - **Serverless:** Initiated the migration of Artisto to Cloudflare (Workers/D1/KV/R2), rewriting the codebase to optimize for serverless resources and AI features.
+- **Hellenic Army:**
+  - Compulsory military service. Managed secure military communications with zero-downtime data transmission via redundancy procedures.
+- **Self-employed:**
+  - Prepared students for University Entrance Exams by translating abstract mathematical concepts into concrete cross-disciplinary analogies.
+  - Taught undergraduate mathematics, honing technical communication skills that enabled bridging complex engineering concepts with business needs.
+- **Athens Information Technology:**
+  - Researched statistical learning methods for time-series prediction.
+  - Co-developed predictive algorithmic trading models.
 
 ---
 
 ## Education
 
-|--------|-------------|--------|
-| RNCP L7 Software Engineering — Full stack · cloud DevOps specialization | Zone01 Athens
-| Graduate Coursework, Economics | AUEB
-| Undergraduate Coursework, Mathematics — linear algebra · numerical analysis · data structures · cryptography | NKU Athens
-| Graduate Coursework, Info. & Telecom. Tech. — machine learning in structured domains | AIT
+- **Zone01 Athens** — RNCP L7 (MSc) | Software Eng. | 2024 – 2026 | Athens, GR
+  - Specialization: Full Stack Software Engineering, Cloud DevOps
+- **Ath. Uni. of Econ. & Bus.** — Economics | 2012 – 2013 | Athens, GR
+  - Graduate Coursework: Microeconomics • Macroeconomics • Econometrics • Financial Economics
+- **N. K. Uni. of Athens** — Mathematics | 2005 – 2013 | Athens, GR
+  - Undergraduate Coursework: Linear Algebra • Computational Science • Calculus • Programming Languages • Numerical Analysis • Data Structures • Recursive Functions • Cryptography
+- **AIT** — Info. & Telecom. Technologies | 2009 – 2010 | Athens, GR
+  - Graduate Coursework: Machine Learning in Structured Domains
 
 ---
 
 ## Honors
 
-- 1st Place — Panathenea AI Hackathon
-- Full tuition scholarship — AIT MSc (Intracom)
-- Full tuition scholarship — AUEB MSc
-- Summer university full scholarship — Bucharest Uni. of Econ.
-- Young researcher grant — Uni. of Göttingen
-- Young researcher grant — INRIA Marie-Curie
-- Summer school scholarships — Aegean Uni. · Uni. of Crete · Ionian Uni. · Plato's Academy
+- **2026:** 1st Place Winner | Panathenea AI Hackathon
+- **2014:** Summer Uni. Full Scholarship | Bucharest Uni. of Econ., Romania
+- **2013:** M.Sc. Full Tuition Scholarship | Ath. Uni. of Economics & Business
+- **2011:** Young Researcher Grant | Uni. of Göttingen, Germany
+- **2010:** Young Researcher Grant | INRIA Marie-Curie Network, France
+- **2010:** M.Sc. Full Tuition Scholarship | AIT, Intracom
+- *Multiple Summer School Scholarships (2010–2015):* Aegean University, University of Crete, Ionian University, Plato's Academy.
 
 ---
 
 ## Skills
 
-**Competencies:** Backend systems & DevOps · Product strategy & founding · AI engineering (study & prototyping) · Applied mathematics
+**Competencies:** Agentic & Harness Engineering · Backend Systems · Product Strategy & Entrepreneurship · AI Engineering (Study & Prototyping)
 
-**Languages:** Greek / Albanian (native) · English (fluent) · Japanese / German (elementary)
+**Technologies:** Golang • Git • Docker • Java • SQLite • HTML/CSS • JS/TS • Python • Bash • MATLAB • LaTeX
+
+**Languages:** Greek / Albanian (Native/Bilingual) · English (Fluent) · Japanese / German (Elementary)
 
 ---
 
