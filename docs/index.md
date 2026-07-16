@@ -70,9 +70,9 @@ Signal: "Not just code. Products, users, business outcomes."
 ## Featured Projects (cards or list, max 4)
 
 ### two-tier-safe-ai-gate
-Reference implementation of two-tier safe execution model. Tier 1: autonomous agent exploration → Deterministic validation boundary → Tier 2: bounded execution.
-`Python` `FastAPI` `Pydantic` `Logfire` `PostgreSQL`
-[GitHub](https://github.com/ertval/two-tier-safe-ai-gate) · [Live Demo](#)
+Reference implementation of two-tier safe execution model. Tier 1: autonomous agent exploration &rarr; deterministic validation boundary &rarr; Tier 2: bounded execution.
+`Go` `SDK2` `Omnigent` `Inngest` `Docker`
+[GitHub](https://github.com/ertval/two-tier-safe-ai-gate)
 
 ### keel-multi-agent-pipeline
 Orchestrator-Worker-Validator multi-agent pipeline for maritime document intelligence. 1st place Panathenea AI Hackathon 2026.
@@ -87,7 +87,7 @@ Go + Next.js full-stack monolith. Vertical feature slices, pluggable DB/bus/cach
 ### make-your-game
 Pure JS ECS game engine. 850 commits. DOM node pooling, jank prevention, CSP/Trusted Types. Vitest + Playwright E2E.
 `JavaScript` `ECS` `DOM` `CI/CD`
-[GitHub](https://github.com/ertval/make-your-game) · [Play](#)
+[GitHub](https://github.com/ertval/make-your-game) · [Play](https://ertval.github.io/make-your-game/)
 
 ---
 
