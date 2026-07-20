@@ -448,6 +448,20 @@ code {
   gap: var(--s-3);
 }
 
+.narrative__body {
+  color: var(--ink-2);
+  font-size: 1.15rem;
+  line-height: 1.65;
+  max-width: 64ch;
+  display: flex;
+  flex-direction: column;
+  gap: var(--s-3);
+}
+
+.narrative__body p {
+  margin: 0;
+}
+
 .note {
   display: grid;
   gap: var(--s-2);

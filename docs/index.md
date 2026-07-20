@@ -18,7 +18,7 @@ Athens, Greece
 
 Engineer and founder building AI systems that know when to stop and validate. Currently co-founding Keel Technologies, where we turn messy maritime documents into structured intelligence using multi-agent pipelines. Won the Panathenea AI Hackathon along the way. I'm interested in AI safety and reliability, and I'm always experimenting with new ideas.
 
-Before this I spent 11 years running Metagalerie, an art-tech company where I built Artisto — a gallery management SaaS. I studied some mathematics, picked up economics, and eventually retrained in software engineering at Zone01 Athens.
+Before this, I ran Metagalerie, an art-tech company where I built Artisto — a gallery management SaaS. I studied some mathematics, picked up economics, and eventually retrained in software engineering at Zone01 Athens.
 
 I care about making AI agents reliable enough to actually ship. Most of my recent work is about putting guardrails on LLM autonomy so the output is trustworthy, not just impressive.
 
@@ -32,7 +32,7 @@ A safe execution harness for AI agents. Separates unconstrained LLM exploration 
 [GitHub](https://github.com/ertval/two-tier-safe-ai-gate)
 
 ### keel-multi-agent-pipeline
-Multi-agent pipeline for processing complex maritime paperwork. Uses orchestrator, worker, and validator agents to extract structured data from unstructured documents. Won 1st place at the Panathenea AI Hackathon 2026.
+Multi-agent pipeline for processing complex maritime paperwork. Uses orchestrator, worker, and validator agents to extract structured data from unstructured documents. Won 1st place at the 2026 Panathenea AI Hackathon.
 `Python` `LangGraph` `Pydantic` `FastAPI`
 [GitHub](https://github.com/ertval/keel-multi-agent-pipeline)
 
@@ -49,34 +49,34 @@ A browser game engine built with vanilla JavaScript using Entity-Component-Syste
 
 ---
 
-## Experience (one line each — CV has details)
+## Experience (CV has details)
 
-- **Keel Technologies** — Co-founder. Multi-agent AI for maritime intelligence. *2026–present*
-- **Metagalerie** — Co-founder. Built Artisto, art management SaaS. *2013–2025*
-- **Hellenic Army** — Communications specialist. *2016–2017*
-- **Self-employed** — Math tutor, university entrance prep. *2006–2016*
-- **AIT** — Research assistant, algorithmic trading models. *2009–2010*
+- **Keel Technologies** — Co-founder. Multi-agent AI for maritime document intelligence.
+- **Metagalerie** — Co-founder. Built Artisto, art management SaaS.
+- **Hellenic Army** — Communications specialist. Secure military communications.
+- **Self-employed** — Education & tutoring, university entrance prep & undergraduate math.
+- **AIT** — Research assistant, time-series statistical learning & trading models.
 
 ---
 
 ## Education (compact)
 
-- **Zone01 Athens** — Software Engineering (RNCP L7 / MSc equiv.) · 2024–2026
-- **AUEB** — Economics (undergraduate courses) · 2012–2013
-- **NKUA** — Mathematics (undergraduate courses) · 2005–2013
-- **AIT** — IT & Machine Learning (graduate courses) · 2009–2010
+- **Zone01 Athens** — Software Engineering (RNCP L7 / MSc equiv.)
+- **AUEB** — Economics (undergraduate courses)
+- **NKUA** — Mathematics (undergraduate courses)
+- **AIT** — IT & Machine Learning (graduate courses)
 
 ---
 
 ## Elsewhere
 
-- **2026:** 1st Place Winner | Panathenea AI Hackathon
-- **2014:** Summer Uni. Full Scholarship | Bucharest Uni. of Econ., Romania
-- **2013:** M.Sc. Full Tuition Scholarship | Ath. Uni. of Economics & Business
-- **2011:** Young Researcher Grant | Uni. of Göttingen, Germany
-- **2010:** Young Researcher Grant | INRIA Marie-Curie Network, France
-- **2010:** M.Sc. Full Tuition Scholarship | AIT, Intracom
-- *Multiple Summer School Scholarships (2010–2015):* Aegean University, University of Crete, Ionian University, Plato's Academy.
+- 1st Place Winner | Panathenea AI Hackathon
+- Summer Uni. Full Scholarship | Bucharest Uni. of Econ., Romania
+- M.Sc. Full Tuition Scholarship | Ath. Uni. of Economics & Business
+- Young Researcher Grant | Uni. of Göttingen, Germany
+- Young Researcher Grant | INRIA Marie-Curie Network, France
+- M.Sc. Full Tuition Scholarship | AIT, Intracom
+- Summer School Scholarships: Aegean University, University of Crete, Ionian University, Plato's Academy.
 
 ---
 

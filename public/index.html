@@ -44,9 +44,8 @@
     </p>
 
     <blockquote class="hero__tag">
-      <p>Backend engineer and founder building production-safe agentic AI systems.</p>
-      <p>Architectural philosophy: <b>bounded autonomy</b> &mdash; LLM agents explore freely within deterministic validation gates.</p>
-      <p>AI scales syntax. Humans retain strict ownership of orchestration, intent, and taste.</p>
+      <p>Backend engineer and founder building reliable multi-agent AI systems.</p>
+      <p>Focused on <b>bounded autonomy</b> &mdash; putting deterministic validation guardrails on LLM exploration so outputs are trustworthy and ready for production.</p>
     </blockquote>
 
     <dl class="status" aria-label="Current status">
@@ -116,48 +115,23 @@
     </p>
   </section>
 
-  <!-- NARRATIVE -->
-  <section class="narrative" aria-label="Engineer's note">
+  <!-- ABOUT -->
+  <section class="narrative" aria-labelledby="about-h">
+    <header class="section-head">
+      <h2 id="about-h" class="section-h">About</h2>
+    </header>
 
-    <article class="note">
-      <header class="note__head">
-        <span class="note__num mono">01</span>
-        <h2 class="note__title">Backend & infrastructure depth</h2>
-      </header>
-      <p class="note__body">
-        Go backend engineer. Clean hexagonal architecture, vertical feature slices,
-        pluggable infrastructure adapters, real-time concurrency, CI/CD with E2E testing.
-        <span class="mono note__repos"><code>social-network</code> &middot; <code>real-time-forum</code> &middot; <code>make-your-game</code></span>
+    <div class="narrative__body">
+      <p>
+        Engineer and founder building AI systems that know when to stop and validate. Currently co-founding Keel Technologies, where we turn messy maritime documents into structured intelligence using multi-agent pipelines &mdash; winning 1st place at the Panathenea AI Hackathon along the way.
       </p>
-      <p class="note__signal">The infrastructure agentic systems run on.</p>
-    </article>
-
-    <article class="note">
-      <header class="note__head">
-        <span class="note__num mono">02</span>
-        <h2 class="note__title">Agentic AI research & prototyping</h2>
-      </header>
-      <p class="note__body">
-        Reference implementations of production-safe multi-agent architectures.
-        Focus on deterministic validation boundaries, structured outputs (Pydantic),
-        observability (Logfire), and immutable audit trails.
-        <span class="mono note__repos"><code>two-tier-safe-ai-gate</code> &middot; <code>keel-multi-agent-pipeline</code></span>
+      <p>
+        Before this, I ran Metagalerie, an art-tech company where I built Artisto, a gallery management SaaS. I studied some mathematics, picked up economics, and eventually retrained in software engineering at Zone01 Athens.
       </p>
-      <p class="note__signal">I already understand your architecture. Here&rsquo;s a working prototype.</p>
-    </article>
-
-    <article class="note">
-      <header class="note__head">
-        <span class="note__num mono">03</span>
-        <h2 class="note__title">Founder mentality</h2>
-      </header>
-      <p class="note__body">
-        Eleven years building technology-enabled businesses. Product thinking
-        tied to engineering decisions. A mathematics foundation feeding ML intuition.
+      <p>
+        I care about making AI agents reliable enough to actually ship. Most of my recent work is about putting guardrails on LLM autonomy so the output is trustworthy, not just impressive.
       </p>
-      <p class="note__signal">Not just code. Products, users, business outcomes.</p>
-    </article>
-
+    </div>
   </section>
 
   <!-- PROJECTS -->
@@ -172,13 +146,14 @@
       <li class="proj">
         <div class="proj__head">
           <h3 class="proj__title">two-tier-safe-ai-gate</h3>
-          <span class="tag tag--accent tag--sm">2026</span>
+          <span class="tag tag--ghost tag--sm">go</span>
+          <span class="tag tag--ghost tag--sm">sdk2</span>
+          <span class="tag tag--ghost tag--sm">omnigent</span>
+          <span class="tag tag--ghost tag--sm">inngest</span>
+          <span class="tag tag--ghost tag--sm">docker</span>
         </div>
         <p class="proj__desc">
           A safe execution harness for AI agents. Separates unconstrained LLM exploration from deterministic validation boundaries so agent actions are verified before anything runs.
-        </p>
-        <p class="proj__meta mono">
-          <span>go</span><span>sdk2</span><span>omnigent</span><span>inngest</span><span>docker</span>
         </p>
         <p class="proj__links mono">
           <a class="link" href="https://github.com/ertval/two-tier-safe-ai-gate" rel="noopener">github &rarr;</a>
@@ -188,13 +163,14 @@
       <li class="proj">
         <div class="proj__head">
           <h3 class="proj__title">keel-multi-agent-pipeline</h3>
-          <span class="tag tag--accent tag--sm">2026 &middot; 1st</span>
+          <span class="tag tag--accent tag--sm">1st place</span>
+          <span class="tag tag--ghost tag--sm">python</span>
+          <span class="tag tag--ghost tag--sm">langgraph</span>
+          <span class="tag tag--ghost tag--sm">pydantic</span>
+          <span class="tag tag--ghost tag--sm">fastapi</span>
         </div>
         <p class="proj__desc">
           Multi-agent pipeline for processing complex maritime paperwork. Uses orchestrator, worker, and validator agents to extract structured data from unstructured documents. Won 1st place at the Panathenea AI Hackathon 2026.
-        </p>
-        <p class="proj__meta mono">
-          <span>python</span><span>langgraph</span><span>pydantic</span><span>fastapi</span>
         </p>
         <p class="proj__links mono">
           <a class="link" href="https://github.com/ertval/keel-multi-agent-pipeline" rel="noopener">github &rarr;</a>
@@ -204,13 +180,14 @@
       <li class="proj">
         <div class="proj__head">
           <h3 class="proj__title">social-network</h3>
-          <span class="tag tag--ghost tag--sm">2025</span>
+          <span class="tag tag--ghost tag--sm">go</span>
+          <span class="tag tag--ghost tag--sm">next.js</span>
+          <span class="tag tag--ghost tag--sm">postgresql</span>
+          <span class="tag tag--ghost tag--sm">docker</span>
+          <span class="tag tag--ghost tag--sm">ci/cd</span>
         </div>
         <p class="proj__desc">
           Full-stack social platform built with Go and Next.js. Designed around modular vertical slice architecture with decoupled adapters for database, messaging (queues & pub/sub), and caching.
-        </p>
-        <p class="proj__meta mono">
-          <span>go</span><span>next.js</span><span>postgresql</span><span>docker</span><span>ci/cd</span>
         </p>
         <p class="proj__links mono">
           <a class="link" href="https://github.com/ertval/social-network" rel="noopener">github &rarr;</a>
@@ -220,13 +197,13 @@
       <li class="proj">
         <div class="proj__head">
           <h3 class="proj__title">make-your-game</h3>
-          <span class="tag tag--ghost tag--sm">2024</span>
+          <span class="tag tag--ghost tag--sm">javascript</span>
+          <span class="tag tag--ghost tag--sm">ecs</span>
+          <span class="tag tag--ghost tag--sm">dom</span>
+          <span class="tag tag--ghost tag--sm">ci/cd</span>
         </div>
         <p class="proj__desc">
           A browser game engine built with vanilla JavaScript using Entity-Component-System patterns. Features DOM node pooling, CSP compliance with Trusted Types, and automated test suites.
-        </p>
-        <p class="proj__meta mono">
-          <span>javascript</span><span>ecs</span><span>dom</span><span>ci/cd</span>
         </p>
         <p class="proj__links mono">
           <a class="link" href="https://github.com/ertval/make-your-game" rel="noopener">github &rarr;</a>
@@ -244,12 +221,11 @@
     </header>
 
     <table class="xp__table">
-      <caption class="vh">Selected professional experience, most recent first</caption>
+      <caption class="vh">Selected professional experience</caption>
       <thead>
         <tr>
           <th scope="col" class="mono">Role</th>
           <th scope="col" class="mono">Org</th>
-          <th scope="col" class="mono">Period</th>
           <th scope="col" class="mono">Location</th>
         </tr>
       </thead>
@@ -258,60 +234,50 @@
           <td>
             Co-Founder
             <span class="xp__sub mono">
-              &bull; <b>Vision:</b> <i>Panathenea AI Hackathon Winner</i>. Designing an AI platform to turn unstructured maritime data into actionable insights for dispute resolution.<br>
-              &bull; <b>Architecture:</b> Prototyping workflows for document analysis and applying deterministic validation gates to control LLM stochasticity.
+              Multi-agent AI for maritime document intelligence &amp; dispute resolution.
             </span>
           </td>
           <td>Keel Technologies</td>
-          <td class="mono">May 2026 &ndash; present</td>
           <td>Athens, Greece</td>
         </tr>
         <tr>
           <td>
             Co-Founder
             <span class="xp__sub mono">
-              &bull; <b>Vision:</b> Conceived <b>Artisto</b>, an art management SaaS to streamline inventory, consignments, sales, and CRM for galleries, collectors, and artists.<br>
-              &bull; <b>Product:</b> Secured government funding and bridged business goals with technology while directing content curation and product development.<br>
-              &bull; <b>Serverless:</b> Initiated the migration of Artisto to Cloudflare (Workers/D1/KV/R2), rewriting the codebase to optimize for serverless resources and AI features.
+              Built Artisto, an art management SaaS.
             </span>
           </td>
           <td>Metagalerie</td>
-          <td class="mono">2013 &ndash; 2025</td>
           <td>Athens, Greece</td>
         </tr>
         <tr>
           <td>
             Communications Specialist
             <span class="xp__sub mono">
-              &bull; Compulsory military service. Managed secure military communications with zero-downtime data transmission via redundancy procedures.
+              Compulsory military service. Secure military communications.
             </span>
           </td>
           <td>Hellenic Army</td>
-          <td class="mono">2016 &ndash; 2017</td>
           <td>Athens, Greece</td>
         </tr>
         <tr>
           <td>
-            Education and Tutoring
+            Education &amp; Tutoring
             <span class="xp__sub mono">
-              &bull; Prepared students for University Entrance Exams by translating abstract mathematical concepts into concrete cross-disciplinary analogies.<br>
-              &bull; Taught undergraduate mathematics, honing technical communication skills that enabled bridging complex engineering concepts with business needs.
+              University entrance prep &amp; undergraduate mathematics.
             </span>
           </td>
           <td>Self-employed</td>
-          <td class="mono">2006 &ndash; 2016</td>
           <td>Athens, Greece</td>
         </tr>
         <tr>
           <td>
             Research Assistant
             <span class="xp__sub mono">
-              &bull; Researched statistical learning methods for time-series prediction.<br>
-              &bull; Co-developed predictive algorithmic trading models.
+              Time-series statistical learning &amp; predictive trading models.
             </span>
           </td>
           <td>Athens Information Technology</td>
-          <td class="mono">2009 &ndash; 2010</td>
           <td>Athens, Greece</td>
         </tr>
       </tbody>
@@ -327,22 +293,22 @@
         <li>
           <b>RNCP L7 (MSc) | Software Eng.</b>
           <span class="meta__sub mono">Specialization: Full Stack Software Engineering, Cloud DevOps</span>
-          <span class="meta__where">Zone01 Athens <span class="mono">&middot; 2024&ndash;2026</span></span>
+          <span class="meta__where">Zone01 Athens</span>
         </li>
         <li>
           <b>Economics</b>
           <span class="meta__sub mono">Graduate Coursework: Microeconomics &bull; Macroeconomics &bull; Econometrics &bull; Financial Economics</span>
-          <span class="meta__where">Ath. Uni. of Econ. & Bus. <span class="mono">&middot; 2012&ndash;2013</span></span>
+          <span class="meta__where">Ath. Uni. of Econ. & Bus.</span>
         </li>
         <li>
           <b>Mathematics</b>
           <span class="meta__sub mono">Undergraduate Coursework: Linear Algebra &bull; Computational Science &bull; Calculus &bull; Programming Languages &bull; Numerical Analysis &bull; Data Structures &bull; Recursive Functions &bull; Cryptography</span>
-          <span class="meta__where">N. K. Uni. of Athens <span class="mono">&middot; 2005&ndash;2013</span></span>
+          <span class="meta__where">N. K. Uni. of Athens</span>
         </li>
         <li>
           <b>Info. & Telecom. Technologies</b>
           <span class="meta__sub mono">Graduate Coursework: Machine Learning in Structured Domains</span>
-          <span class="meta__where">AIT <span class="mono">&middot; 2009&ndash;2010</span></span>
+          <span class="meta__where">AIT</span>
         </li>
       </ul>
     </div>
@@ -350,13 +316,13 @@
     <div class="meta__col">
       <h2 class="section-h">Honors</h2>
       <ul class="meta__list">
-        <li><b>2026:</b> 1st Place Winner | Panathenea AI Hackathon</li>
-        <li><b>2014:</b> Summer Uni. Full Scholarship | Bucharest Uni. of Econ., Romania</li>
-        <li><b>2013:</b> M.Sc. Full Tuition Scholarship | Ath. Uni. of Economics & Business</li>
-        <li><b>2011:</b> Young Researcher Grant | Uni. of G&ouml;ttingen, Germany</li>
-        <li><b>2010:</b> Young Researcher Grant | INRIA Marie-Curie Network, France</li>
-        <li><b>2010:</b> M.Sc. Full Tuition Scholarship | AIT, Intracom</li>
-        <li>Multiple Summer School Scholarships (2010&ndash;2015): Aegean University, University of Crete, Ionian University, Plato's Academy</li>
+        <li>1st Place Winner | Panathenea AI Hackathon</li>
+        <li>Summer Uni. Full Scholarship | Bucharest Uni. of Econ., Romania</li>
+        <li>M.Sc. Full Tuition Scholarship | Ath. Uni. of Economics & Business</li>
+        <li>Young Researcher Grant | Uni. of G&ouml;ttingen, Germany</li>
+        <li>Young Researcher Grant | INRIA Marie-Curie Network, France</li>
+        <li>M.Sc. Full Tuition Scholarship | AIT, Intracom</li>
+        <li>Summer School Scholarships: Aegean University, University of Crete, Ionian University, Plato's Academy</li>
       </ul>
     </div>
 
@@ -396,7 +362,7 @@
       Art &middot; science &middot; technology &middot; Muay Thai &middot; cooking &middot; traveling
     </p>
     <p class="foot__colophon mono">
-      <span>2026</span>
+      <span>ertval</span>
       <span aria-hidden="true">&middot;</span>
       <span>bounded autonomy</span>
       <span aria-hidden="true">&middot;</span>
