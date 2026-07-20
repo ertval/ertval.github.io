@@ -96,13 +96,15 @@
     <h2 id="stack-h" class="section-h">Core stack</h2>
     <p class="stack__list mono">
       <span>Go</span><span aria-hidden="true">·</span>
-      <span>Python</span><span aria-hidden="true">·</span>
-      <span>TypeScript</span><span aria-hidden="true">·</span>
-      <span>PostgreSQL</span><span aria-hidden="true">·</span>
       <span>Docker</span><span aria-hidden="true">·</span>
-      <span>FastAPI</span><span aria-hidden="true">·</span>
-      <span>Pydantic</span><span aria-hidden="true">·</span>
-      <span>LangGraph</span>
+      <span>Git</span><span aria-hidden="true">·</span>
+      <span>Java</span><span aria-hidden="true">·</span>
+      <span>SQLite</span><span aria-hidden="true">·</span>
+      <span>HTML/CSS</span><span aria-hidden="true">·</span>
+      <span>JS/TS</span><span aria-hidden="true">·</span>
+      <span>Bash</span><span aria-hidden="true">·</span>
+      <span>MATLAB</span><span aria-hidden="true">·</span>
+      <span>LaTeX</span><span aria-hidden="true">·</span>
     </p>
     <p class="stack__exploring mono">
       <span class="tag tag--ghost tag--sm">exploring</span>
@@ -110,7 +112,7 @@
     </p>
     <p class="stack__wields mono">
       <span class="tag tag--ghost tag--sm">also</span>
-      Git &middot; Java &middot; SQLite &middot; Bash &middot; MATLAB &middot; LaTeX &middot; HTML/CSS &middot; JS/TS
+      Python &middot; PostgreSQL &middot; FastAPI &middot; Pydantic &middot; LangGraph
     </p>
   </section>
 
@@ -161,8 +163,8 @@
   <!-- PROJECTS -->
   <section class="projects" aria-labelledby="projects-h">
     <header class="section-head">
-      <h2 id="projects-h" class="section-h">Featured proof</h2>
-      <p class="section-sub mono">Four pinned repositories. Production code, not claims.</p>
+      <h2 id="projects-h" class="section-h">Projects</h2>
+      <p class="section-sub mono">Selected repositories and open-source work.</p>
     </header>
 
     <ol class="proj-list" reversed>
@@ -173,8 +175,7 @@
           <span class="tag tag--accent tag--sm">2026</span>
         </div>
         <p class="proj__desc">
-          Reference implementation of a two-tier safe execution model.
-          Tier&nbsp;1: autonomous agent exploration &rarr; deterministic validation boundary &rarr; Tier&nbsp;2: bounded execution.
+          A safe execution harness for AI agents. Separates unconstrained LLM exploration from deterministic validation boundaries so agent actions are verified before anything runs.
         </p>
         <p class="proj__meta mono">
           <span>go</span><span>sdk2</span><span>omnigent</span><span>inngest</span><span>docker</span>
@@ -190,8 +191,7 @@
           <span class="tag tag--accent tag--sm">2026 &middot; 1st</span>
         </div>
         <p class="proj__desc">
-          Orchestrator &mdash; worker &mdash; validator multi-agent pipeline for maritime document
-          intelligence. First place, Panathenea AI Hackathon 2026.
+          Multi-agent pipeline for processing complex maritime paperwork. Uses orchestrator, worker, and validator agents to extract structured data from unstructured documents. Won 1st place at the Panathenea AI Hackathon 2026.
         </p>
         <p class="proj__meta mono">
           <span>python</span><span>langgraph</span><span>pydantic</span><span>fastapi</span>
@@ -207,8 +207,7 @@
           <span class="tag tag--ghost tag--sm">2025</span>
         </div>
         <p class="proj__desc">
-          Go &mdash; Next.js full-stack monolith. Vertical feature slices, pluggable database, bus,
-          and cache adapters. CI plus end-to-end tests, 556 commits.
+          Full-stack social platform built with Go and Next.js. Designed around modular vertical slice architecture with decoupled adapters for database, messaging (queues & pub/sub), and caching.
         </p>
         <p class="proj__meta mono">
           <span>go</span><span>next.js</span><span>postgresql</span><span>docker</span><span>ci/cd</span>
@@ -224,8 +223,7 @@
           <span class="tag tag--ghost tag--sm">2024</span>
         </div>
         <p class="proj__desc">
-          Pure-JS ECS game engine. DOM node pooling, jank prevention, Content Security Policy
-          with Trusted Types. Vitest plus Playwright E2E, 850 commits.
+          A browser game engine built with vanilla JavaScript using Entity-Component-System patterns. Features DOM node pooling, CSP compliance with Trusted Types, and automated test suites.
         </p>
         <p class="proj__meta mono">
           <span>javascript</span><span>ecs</span><span>dom</span><span>ci/cd</span>

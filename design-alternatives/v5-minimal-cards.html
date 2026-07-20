@@ -1,0 +1,459 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>Ertval Karameta — Engineer & Founder</title>
+<meta name="description" content="Ertval Karameta. Engineer and founder building reliable AI agent systems. Athens, Greece." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%233D6B4A'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='18' font-weight='700' text-anchor='middle' fill='%23F4F5F1'%3EE%3C/text%3E%3C/svg%3E" />
+<style>
+/* ── Tokens ── */
+:root {
+  --bg: #FFFFFF;
+  --bg-card: #F8F8F6;
+  --text: #18181B;
+  --text-2: #52525B;
+  --text-3: #A1A1AA;
+  --accent: #2D7A4F;
+  --accent-bg: #2D7A4F0C;
+  --accent-border: #2D7A4F25;
+  --rule: #18181B0A;
+  --radius: 10px;
+  --shadow: 0 1px 3px rgba(0,0,0,0.04), 0 1px 2px rgba(0,0,0,0.03);
+  --shadow-hover: 0 4px 12px rgba(0,0,0,0.06), 0 2px 4px rgba(0,0,0,0.04);
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #09090B;
+    --bg-card: #131316;
+    --text: #EDEDEF;
+    --text-2: #A1A1A6;
+    --text-3: #5A5A60;
+    --accent: #5EBB7F;
+    --accent-bg: #5EBB7F0A;
+    --accent-border: #5EBB7F20;
+    --rule: #EDEDEF08;
+    --shadow: 0 1px 3px rgba(0,0,0,0.2);
+    --shadow-hover: 0 4px 12px rgba(0,0,0,0.3);
+    color-scheme: dark;
+  }
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+h1, h2, h3, p, ul, ol { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+a { color: inherit; }
+
+/* ── Base ── */
+html {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 48rem;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3.5rem;
+}
+
+::selection {
+  background: var(--accent);
+  color: #fff;
+}
+
+.skip {
+  position: absolute;
+  left: 1rem; top: -100px;
+  z-index: 1000;
+  padding: 8px 12px;
+  background: var(--accent);
+  color: #fff;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.82rem;
+  transition: top 160ms ease;
+}
+.skip:focus-visible { top: 1rem; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 3.5rem 0 2rem;
+  text-align: center;
+}
+
+.hero__name {
+  font-size: clamp(2rem, 4vw + 1rem, 3rem);
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.5rem;
+}
+
+.hero__loc {
+  font-size: 0.88rem;
+  color: var(--text-3);
+  margin-bottom: 1rem;
+}
+
+.hero__about {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text-2);
+  max-width: 46ch;
+  margin: 0 auto 1.5rem;
+  text-align: left;
+}
+
+.hero__about a {
+  text-decoration: none;
+  color: var(--accent);
+  font-weight: 500;
+}
+.hero__about a:hover { text-decoration: underline; }
+
+.hero__links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.hero__links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.45rem 0.9rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: transform 140ms ease, box-shadow 140ms ease;
+}
+.hero__links a:hover {
+  transform: translateY(-1px);
+  box-shadow: var(--shadow-hover);
+}
+
+.btn--fill {
+  background: var(--accent);
+  color: #fff;
+}
+
+.btn--soft {
+  background: var(--bg-card);
+  color: var(--text-2);
+  border: 1px solid var(--rule);
+}
+.btn--soft:hover {
+  border-color: var(--accent-border);
+  color: var(--accent);
+}
+
+/* ── Section ── */
+.section {
+  padding: 2rem 0;
+}
+
+.section__title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-3);
+  margin-bottom: 1rem;
+}
+
+/* ── Project cards ── */
+.card-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0.75rem;
+}
+
+@media (min-width: 560px) {
+  .card-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.card {
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  border-radius: var(--radius);
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  box-shadow: var(--shadow);
+  transition: transform 200ms ease, box-shadow 200ms ease, border-color 200ms ease;
+  text-decoration: none;
+}
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--shadow-hover);
+  border-color: var(--accent-border);
+}
+
+.card__badge {
+  display: inline-flex;
+  align-self: flex-start;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding: 3px 7px;
+  border-radius: 4px;
+  background: var(--accent-bg);
+  color: var(--accent);
+  border: 1px solid var(--accent-border);
+}
+
+.card__name {
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.card__desc {
+  font-size: 0.88rem;
+  color: var(--text-2);
+  line-height: 1.5;
+  flex: 1;
+}
+
+.card__tags {
+  font-size: 0.75rem;
+  color: var(--text-3);
+  letter-spacing: 0.01em;
+}
+
+.card__arrow {
+  font-size: 0.82rem;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ── Compact list ── */
+.list {
+  display: grid;
+  gap: 0.5rem;
+}
+
+.list-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  font-size: 0.92rem;
+  color: var(--text-2);
+  padding: 0.4rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.list-item:last-child { border-bottom: none; }
+
+.list-item strong {
+  color: var(--text);
+  font-weight: 500;
+}
+
+.list-item .year {
+  font-size: 0.8rem;
+  color: var(--text-3);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ── Stack pills ── */
+.pills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+.pill {
+  font-size: 0.78rem;
+  padding: 4px 10px;
+  border-radius: 100px;
+  background: var(--bg-card);
+  border: 1px solid var(--rule);
+  color: var(--text-2);
+}
+.pill--primary {
+  background: var(--accent-bg);
+  border-color: var(--accent-border);
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* ── Footer ── */
+.footer {
+  text-align: center;
+  padding-top: 2rem;
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.footer__status {
+  font-size: 0.92rem;
+  color: var(--text-2);
+  margin-bottom: 1.25rem;
+}
+
+.footer__links {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.footer__copy {
+  font-size: 0.75rem;
+  color: var(--text-3);
+}
+
+/* ── Entrance ── */
+@media (prefers-reduced-motion: no-preference) {
+  body { animation: fade 400ms ease both; }
+}
+@keyframes fade {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: none; }
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <h1 class="hero__name">Ertval Karameta</h1>
+  <p class="hero__loc">Athens, Greece</p>
+  <p class="hero__about">Engineer and founder building AI systems that know when to stop and validate. Currently co-founding <a href="https://github.com/ertval">Keel Technologies</a>, where we turn messy maritime documents into structured intelligence using multi-agent pipelines. Won the Panathenea AI Hackathon along the way.</p>
+  <p class="hero__about">Before this I spent 11 years running Metagalerie, an art-tech company where I built Artisto &mdash; a gallery management SaaS. I studied mathematics, picked up economics, and eventually retrained in software engineering at Zone01 Athens.</p>
+  <nav class="hero__links" aria-label="Contact">
+    <a class="btn--fill" href="mailto:erti@metagalerie.com">Email</a>
+    <a class="btn--soft" href="https://github.com/ertval" rel="me noopener">GitHub</a>
+    <a class="btn--soft" href="https://linkedin.com/in/ertval" rel="me noopener">LinkedIn</a>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- Projects -->
+  <section class="section">
+    <h2 class="section__title">Projects</h2>
+    <div class="card-grid">
+
+      <a class="card" href="https://github.com/ertval/two-tier-safe-ai-gate" rel="noopener">
+        <h3 class="card__name">two-tier-safe-ai-gate</h3>
+        <p class="card__desc">A reference architecture for letting AI agents explore freely, then validating their output before anything executes.</p>
+        <p class="card__tags">Go &middot; SDK2 &middot; Inngest &middot; Docker</p>
+        <span class="card__arrow">View &rarr;</span>
+      </a>
+
+      <a class="card" href="https://github.com/ertval/keel-multi-agent-pipeline" rel="noopener">
+        <span class="card__badge">1st place</span>
+        <h3 class="card__name">keel-multi-agent-pipeline</h3>
+        <p class="card__desc">The pipeline that won the Panathenea AI Hackathon. Orchestrator &rarr; workers &rarr; validator for maritime docs.</p>
+        <p class="card__tags">Python &middot; LangGraph &middot; Pydantic &middot; FastAPI</p>
+        <span class="card__arrow">View &rarr;</span>
+      </a>
+
+      <a class="card" href="https://github.com/ertval/social-network" rel="noopener">
+        <h3 class="card__name">social-network</h3>
+        <p class="card__desc">Full-stack Go + Next.js social platform. Hexagonal architecture, pluggable adapters, 556 commits.</p>
+        <p class="card__tags">Go &middot; Next.js &middot; PostgreSQL &middot; Docker</p>
+        <span class="card__arrow">View &rarr;</span>
+      </a>
+
+      <a class="card" href="https://github.com/ertval/make-your-game" rel="noopener">
+        <h3 class="card__name">make-your-game</h3>
+        <p class="card__desc">Pure JS game engine built from scratch. 850 commits. You can play it.</p>
+        <p class="card__tags">JavaScript &middot; ECS &middot; DOM</p>
+        <span class="card__arrow">Play &rarr;</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- Experience -->
+  <section class="section">
+    <h2 class="section__title">Experience</h2>
+    <ul class="list">
+      <li class="list-item"><div><strong>Keel Technologies</strong> &mdash; Co-founder, multi-agent AI for maritime intelligence</div> <span class="year">2026&ndash;</span></li>
+      <li class="list-item"><div><strong>Metagalerie</strong> &mdash; Co-founder, Artisto art management SaaS</div> <span class="year">2013&ndash;2025</span></li>
+      <li class="list-item"><div><strong>Hellenic Army</strong> &mdash; Communications specialist</div> <span class="year">2016&ndash;2017</span></li>
+      <li class="list-item"><div><strong>Self-employed</strong> &mdash; Math tutor, university entrance prep</div> <span class="year">2006&ndash;2016</span></li>
+      <li class="list-item"><div><strong>AIT</strong> &mdash; Research assistant, algorithmic trading models</div> <span class="year">2009&ndash;2010</span></li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="section">
+    <h2 class="section__title">Education</h2>
+    <ul class="list">
+      <li class="list-item"><div><strong>Zone01 Athens</strong> &mdash; Software Engineering (RNCP L7)</div> <span class="year">2024&ndash;2026</span></li>
+      <li class="list-item"><div><strong>AUEB</strong> &mdash; Economics (graduate)</div> <span class="year">2012&ndash;2013</span></li>
+      <li class="list-item"><div><strong>NKUA</strong> &mdash; Mathematics</div> <span class="year">2005&ndash;2013</span></li>
+      <li class="list-item"><div><strong>AIT</strong> &mdash; Machine Learning (graduate)</div> <span class="year">2009&ndash;2010</span></li>
+    </ul>
+  </section>
+
+  <!-- Stack -->
+  <section class="section">
+    <h2 class="section__title">Stack</h2>
+    <div class="pills">
+      <span class="pill pill--primary">Go</span>
+      <span class="pill pill--primary">Python</span>
+      <span class="pill pill--primary">TypeScript</span>
+      <span class="pill pill--primary">PostgreSQL</span>
+      <span class="pill pill--primary">Docker</span>
+      <span class="pill pill--primary">FastAPI</span>
+      <span class="pill pill--primary">Pydantic</span>
+      <span class="pill pill--primary">LangGraph</span>
+      <span class="pill">Git</span>
+      <span class="pill">Java</span>
+      <span class="pill">SQLite</span>
+      <span class="pill">Bash</span>
+      <span class="pill">HTML/CSS</span>
+      <span class="pill">MATLAB</span>
+      <span class="pill">LaTeX</span>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__status">Open to AI-native backend roles &middot; agentic-systems collaboration &middot; Athens or remote EU</p>
+  <nav class="footer__links" aria-label="Contact">
+    <a class="btn--fill" href="mailto:erti@metagalerie.com">Email</a>
+    <a class="btn--soft" href="https://linkedin.com/in/ertval" rel="me noopener">LinkedIn</a>
+    <a class="btn--soft" href="https://github.com/ertval" rel="me noopener">GitHub</a>
+  </nav>
+  <p class="footer__copy">2026 &middot; Ertval Karameta</p>
+</footer>
+
+</body>
+</html>

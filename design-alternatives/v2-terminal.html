@@ -1,0 +1,465 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<meta name="color-scheme" content="light dark" />
+<title>Ertval Karameta — Engineer & Founder</title>
+<meta name="description" content="Ertval Karameta. Engineer and founder building reliable AI agent systems. Athens, Greece." />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%233D6B4A'/%3E%3Ctext x='16' y='22' font-family='monospace' font-size='18' font-weight='700' text-anchor='middle' fill='%23F4F5F1'%3EE%3C/text%3E%3C/svg%3E" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500&display=swap" />
+<style>
+/* ── Tokens ── */
+:root {
+  --bg: #0C0C0C;
+  --bg-2: #141414;
+  --bg-3: #1A1A1A;
+  --text: #C8C8C0;
+  --text-2: #888880;
+  --text-3: #585850;
+  --accent: #5FA87A;
+  --accent-dim: #5FA87A30;
+  --rule: #C8C8C010;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --sans: "Inter", system-ui, -apple-system, sans-serif;
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #FAFAF8;
+    --bg-2: #F2F2EE;
+    --bg-3: #E8E8E2;
+    --text: #1A1A18;
+    --text-2: #5A5A52;
+    --text-3: #9A9A90;
+    --accent: #3D7A52;
+    --accent-dim: #3D7A5220;
+    --rule: #1A1A1812;
+    color-scheme: light;
+  }
+}
+
+/* ── Reset ── */
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; }
+h1, h2, h3, p, ul, ol, dl, dd { margin: 0; padding: 0; }
+ul, ol { list-style: none; }
+a { color: inherit; }
+
+/* ── Base ── */
+html {
+  font-family: var(--mono);
+  font-size: 15px;
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  line-height: 1.65;
+  max-width: 52rem;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem 3rem;
+  background: var(--bg);
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.skip {
+  position: absolute;
+  left: 1rem; top: -100px;
+  z-index: 1000;
+  padding: 8px 12px;
+  background: var(--accent);
+  color: var(--bg);
+  border-radius: 2px;
+  text-decoration: none;
+  font-size: 0.8rem;
+  transition: top 160ms ease;
+}
+.skip:focus-visible { top: 1rem; }
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* ── Prompt line ── */
+.prompt {
+  color: var(--text-3);
+  font-size: 0.82rem;
+  letter-spacing: 0.02em;
+}
+.prompt__accent {
+  color: var(--accent);
+}
+
+/* ── Hero ── */
+.hero {
+  padding: 3rem 0 2rem;
+  border-bottom: 1px solid var(--rule);
+}
+
+.hero__name {
+  font-family: var(--sans);
+  font-size: clamp(2.2rem, 4vw + 1rem, 3.4rem);
+  font-weight: 500;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  margin-bottom: 0.75rem;
+}
+
+.hero__meta {
+  font-size: 0.85rem;
+  color: var(--text-3);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.25rem;
+}
+
+.hero__meta a {
+  text-decoration: none;
+  color: var(--text-2);
+  transition: color 160ms ease;
+}
+.hero__meta a:hover { color: var(--accent); }
+
+/* ── Section ── */
+.section {
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+
+.section__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+}
+
+.section__label {
+  font-family: var(--sans);
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.section__badge {
+  font-size: 0.72rem;
+  color: var(--accent);
+  padding: 2px 6px;
+  border: 1px solid var(--accent-dim);
+  border-radius: 2px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* ── About ── */
+.about p {
+  font-family: var(--sans);
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: var(--text);
+  max-width: 58ch;
+}
+
+.about p + p {
+  margin-top: 0.75rem;
+}
+
+.about a {
+  text-decoration: none;
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent-dim);
+  transition: border-color 160ms ease;
+}
+.about a:hover { border-color: var(--accent); }
+
+/* ── Projects ── */
+.project {
+  padding: 1rem 0;
+  border-top: 1px dashed var(--rule);
+}
+.project:first-child { border-top: none; padding-top: 0; }
+
+.project__head {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.project__name {
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--accent);
+}
+.project__name a {
+  text-decoration: none;
+  color: inherit;
+  transition: opacity 160ms ease;
+}
+.project__name a:hover { opacity: 0.8; }
+
+.project__tags {
+  font-size: 0.78rem;
+  color: var(--text-3);
+}
+
+.project__desc {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  color: var(--text-2);
+  margin-top: 0.3rem;
+  max-width: 56ch;
+  line-height: 1.55;
+}
+
+.project__links {
+  margin-top: 0.4rem;
+  font-size: 0.82rem;
+}
+.project__links a {
+  text-decoration: none;
+  color: var(--text-3);
+  transition: color 160ms ease;
+}
+.project__links a:hover { color: var(--accent); }
+
+/* ── Experience / Education ── */
+.dl-list {
+  display: grid;
+  gap: 0.4rem;
+}
+
+.dl-item {
+  font-family: var(--sans);
+  font-size: 0.92rem;
+  color: var(--text-2);
+  line-height: 1.5;
+}
+
+.dl-item strong {
+  font-weight: 500;
+  color: var(--text);
+}
+
+.dl-item .year {
+  color: var(--text-3);
+  font-family: var(--mono);
+  font-size: 0.82rem;
+}
+
+/* ── Stack ── */
+.stack-line {
+  font-size: 0.88rem;
+  color: var(--text-3);
+  line-height: 1.7;
+}
+.stack-line .primary { color: var(--text-2); }
+
+/* ── Footer ── */
+.footer {
+  padding: 2.5rem 0 1rem;
+}
+
+.footer__status {
+  font-family: var(--sans);
+  font-size: 0.95rem;
+  color: var(--text-2);
+  margin-bottom: 1.5rem;
+}
+
+.footer__links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.footer__links a {
+  display: inline-flex;
+  padding: 0.45rem 1rem;
+  border-radius: 3px;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  transition: transform 160ms ease;
+}
+.footer__links a:hover { transform: translateY(-1px); }
+
+.btn--green {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+.btn--ghost {
+  border: 1px solid var(--rule);
+  color: var(--text-2);
+}
+.btn--ghost:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+
+.footer__copy {
+  font-size: 0.72rem;
+  color: var(--text-3);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* ── Cursor blink ── */
+.cursor {
+  display: inline-block;
+  width: 8px;
+  height: 1.1em;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  margin-left: 2px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .cursor { animation: blink 1s step-end infinite; }
+  body { animation: fade 400ms ease both; }
+}
+@keyframes blink {
+  50% { opacity: 0; }
+}
+@keyframes fade {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+</style>
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <p class="prompt"><span class="prompt__accent">~</span> ertval.github.io<span class="cursor" aria-hidden="true"></span></p>
+  <h1 class="hero__name">Ertval Karameta</h1>
+  <div class="hero__meta">
+    <span>Athens, Greece</span>
+    <a href="https://github.com/ertval" rel="me noopener">github</a>
+    <a href="https://linkedin.com/in/ertval" rel="me noopener">linkedin</a>
+    <a href="mailto:erti@metagalerie.com">email</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- About -->
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__label">About</h2>
+    </div>
+    <div class="about">
+      <p>Engineer and founder building AI systems that know when to stop and validate. Currently co-founding <a href="https://github.com/ertval">Keel Technologies</a>, where we turn messy maritime documents into structured intelligence using multi-agent pipelines. Won the Panathenea AI Hackathon along the way.</p>
+      <p>Before this I spent 11 years running Metagalerie, an art-tech company where I built Artisto &mdash; a gallery management SaaS. I studied mathematics, picked up economics, and eventually retrained in software engineering at Zone01 Athens.</p>
+    </div>
+  </section>
+
+  <!-- Projects -->
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__label">Projects</h2>
+      <span class="section__badge">4 pinned</span>
+    </div>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__name"><a href="https://github.com/ertval/two-tier-safe-ai-gate" rel="noopener">two-tier-safe-ai-gate</a></h3>
+        <span class="project__tags">go &middot; sdk2 &middot; inngest &middot; docker</span>
+      </div>
+      <p class="project__desc">A reference architecture for letting AI agents explore freely, then validating their output before anything executes.</p>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__name"><a href="https://github.com/ertval/keel-multi-agent-pipeline" rel="noopener">keel-multi-agent-pipeline</a></h3>
+        <span class="project__tags">python &middot; langgraph &middot; pydantic &middot; fastapi</span>
+      </div>
+      <p class="project__desc">The pipeline that won the Panathenea AI Hackathon. Orchestrator &rarr; workers &rarr; validator for maritime docs.</p>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__name"><a href="https://github.com/ertval/social-network" rel="noopener">social-network</a></h3>
+        <span class="project__tags">go &middot; next.js &middot; postgresql &middot; docker</span>
+      </div>
+      <p class="project__desc">Full-stack Go + Next.js social platform. Hexagonal architecture, pluggable adapters, 556 commits.</p>
+    </article>
+
+    <article class="project">
+      <div class="project__head">
+        <h3 class="project__name"><a href="https://github.com/ertval/make-your-game" rel="noopener">make-your-game</a></h3>
+        <span class="project__tags">javascript &middot; ecs &middot; dom</span>
+      </div>
+      <p class="project__desc">Pure JS game engine built from scratch. 850 commits. <a href="https://ertval.github.io/make-your-game/" rel="noopener" class="project__links">Play it &rarr;</a></p>
+    </article>
+  </section>
+
+  <!-- Experience -->
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__label">Experience</h2>
+    </div>
+    <ul class="dl-list">
+      <li class="dl-item"><strong>Keel Technologies</strong> &mdash; Co-founder. Multi-agent AI for maritime intelligence. <span class="year">2026&ndash;</span></li>
+      <li class="dl-item"><strong>Metagalerie</strong> &mdash; Co-founder. Built Artisto, art management SaaS. <span class="year">2013&ndash;2025</span></li>
+      <li class="dl-item"><strong>Hellenic Army</strong> &mdash; Communications specialist. <span class="year">2016&ndash;2017</span></li>
+      <li class="dl-item"><strong>Self-employed</strong> &mdash; Math tutor, university entrance prep. <span class="year">2006&ndash;2016</span></li>
+      <li class="dl-item"><strong>AIT</strong> &mdash; Research assistant, algorithmic trading models. <span class="year">2009&ndash;2010</span></li>
+    </ul>
+  </section>
+
+  <!-- Education -->
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__label">Education</h2>
+    </div>
+    <ul class="dl-list">
+      <li class="dl-item"><strong>Zone01 Athens</strong> &mdash; Software Engineering (RNCP L7) <span class="year">2024&ndash;2026</span></li>
+      <li class="dl-item"><strong>AUEB</strong> &mdash; Economics (graduate) <span class="year">2012&ndash;2013</span></li>
+      <li class="dl-item"><strong>NKUA</strong> &mdash; Mathematics <span class="year">2005&ndash;2013</span></li>
+      <li class="dl-item"><strong>AIT</strong> &mdash; Machine Learning (graduate) <span class="year">2009&ndash;2010</span></li>
+    </ul>
+  </section>
+
+  <!-- Stack -->
+  <section class="section">
+    <div class="section__head">
+      <h2 class="section__label">Stack</h2>
+    </div>
+    <p class="stack-line"><span class="primary">Go &middot; Python &middot; TypeScript &middot; PostgreSQL &middot; Docker &middot; FastAPI &middot; Pydantic &middot; LangGraph</span></p>
+    <p class="stack-line">Git &middot; Java &middot; SQLite &middot; Bash &middot; HTML/CSS &middot; MATLAB &middot; LaTeX</p>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p class="footer__status">Open to AI-native backend roles &middot; agentic-systems collaboration &middot; Athens or remote EU.</p>
+  <nav class="footer__links" aria-label="Contact">
+    <a class="btn--green" href="mailto:erti@metagalerie.com">Email</a>
+    <a class="btn--ghost" href="https://linkedin.com/in/ertval" rel="me noopener">LinkedIn</a>
+    <a class="btn--ghost" href="https://github.com/ertval" rel="me noopener">GitHub</a>
+  </nav>
+  <p class="footer__copy">2026 &middot; Ertval Karameta</p>
+</footer>
+
+</body>
+</html>
